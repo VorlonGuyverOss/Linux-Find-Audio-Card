@@ -9,7 +9,7 @@ DEVICE_LIMIT=10
 device_left_status=2
 device_right_status=2
 
-for ((j - 0 ; j < $BASE_CARD_LIMIT ; j++ )); do
+for ((j = 0 ; j < $BASE_CARD_LIMIT ; j++ )); do
 
     for ((i = 0 ; i < $DEVICE_LIMIT ; i++)); do
         echo $device_left_status
